@@ -1,6 +1,6 @@
 # Shipyard PostgreSQL
 
-This provides PostgreSQL for production deployment.
+This provides PostgreSQL 9.3 for production deployment.
 
 * `docker build -t shipyard-db .`
 * `docker run shipyard-db`
