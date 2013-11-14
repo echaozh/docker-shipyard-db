@@ -12,5 +12,5 @@ Ports
 Environment Variables
 
 * `DB_USER`: Database user (default: shipyard)
-* `DB_PASS`: Database pass (default: <randomly generated>)
+* `DB_PASS`: Database pass (default: \<randomly generated\>)
 * `DB_NAME`: Database name (default: shipyard)
