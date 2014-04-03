@@ -1,7 +1,7 @@
 #!/bin/bash
-DB_USER=${POSTGRESQL_USER:-shipyard}
-DB_PASS=${POSTGRESQL_PASS:-`date | md5sum | head -c10`}
-DB_NAME=${POSTGRESQL_DB:-shipyard}
+DB_USER=${DB_USER:-shipyard}
+DB_PASS=${DB_PASS:-`date | md5sum | head -c10`}
+DB_NAME=${DB_NAME:-shipyard}
 DATA_DIR=${DATA_DIR:-/var/lib/postgresql/9.3/main}
 INITDB=/usr/lib/postgresql/9.3/bin/initdb
 PG_CMD=/usr/lib/postgresql/9.3/bin/postgres
